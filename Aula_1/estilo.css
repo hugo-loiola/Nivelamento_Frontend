@@ -12,23 +12,11 @@ h5,
 h6 {
   color: #f8ff95;
 }
-::selection {
-  color: #a6ff96;
-  background: #bc7af9;
-}
 
 p {
   color: #a6ff96;
 }
-::selection {
-  color: #a6ff96;
-  background: #bc7af9;
-}
 
 a {
   text-decoration: none;
-}
-::selection {
-  color: #a6ff96;
-  background: #bc7af9;
 }
