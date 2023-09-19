@@ -18,7 +18,7 @@ footer {
 }
 
 .titulo_cabecalho {
-  font-weight: bold;
+  font-family: cursive;
 }
 
 section {
@@ -30,6 +30,7 @@ section {
 
 .secao {
   background-color: #e55604;
+  padding: 5vh;
 }
 
 footer {
