@@ -12,27 +12,33 @@ header,
 footer {
   background-color: #b4b4b3;
   height: 15vh;
-  width: 100%;
   border: 2px solid #26577c;
   border-radius: 5px;
 }
 
 .titulo_cabecalho {
   font-family: cursive;
+  text-align: center;
 }
 
 section {
   border: 2px solid #26577c;
   border-radius: 5px;
   height: 50vh;
-  width: 100%;
 }
 
 .secao {
   background-color: #e55604;
-  padding: 5vh;
+  padding: 15vh;
+  text-align: center;
+}
+
+.secao2 {
+  font-family: "Fira Code", "Ubuntu Mono", "Courier New", Courier, monospace;
+  padding: 5%;
 }
 
 footer {
   height: 25vh;
+  text-align: end;
 }
