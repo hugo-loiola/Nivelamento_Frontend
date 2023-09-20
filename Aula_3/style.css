@@ -57,4 +57,23 @@ header {
 }
 
 #section-cards {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card {
+  width: 20%;
+  height: 70%;
+  border-radius: 10px;
+  background-color: #3d0c11;
+  color: #f9dec9;
+}
+
+.text-card {
+  padding: 10px;
+  text-align: justify;
+  height: 30%;
 }
