@@ -47,3 +47,14 @@ header {
   padding: 5px;
   border-radius: 10px;
 }
+#section-banner {
+  height: 50vh;
+  background-color: #f78ca2;
+}
+#corvette {
+  height: 100%;
+  width: 100%;
+}
+
+#section-cards {
+}
