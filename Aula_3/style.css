@@ -65,8 +65,10 @@ header {
 #section-banner-card {
   border-radius: 10px;
   background-color: #d80032;
+  text-align: justify;
   color: #f9dec9;
   margin: 20px;
+  padding: 10px 15px 10px 15px;
   box-shadow: 15px 15px #3d0c11;
 }
 ::selection {
@@ -94,4 +96,31 @@ header {
   padding: 10px;
   text-align: justify;
   height: 30%;
+}
+
+footer {
+  background-color: #3d0c11;
+  height: 20vh;
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer-card {
+  background-color: #f9dec9;
+  color: #3d0c11;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#footer-card-a {
+  color: #d80032;
+  text-decoration: none;
+}
+#footer-card-a:hover {
+  background-color: #3d0c11;
+  color: #f78ca2;
+  border-radius: 10px;
+  padding: 5px;
 }
