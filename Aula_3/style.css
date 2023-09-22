@@ -116,6 +116,12 @@ header {
   box-shadow: 15px 15px #3d0c11;
   padding: 10px;
 }
+hr {
+  border: 1px solid #f9dec9;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
 
 #img-secao3 {
   background-image: url(https://nivelandoaengenharia.com.br/wp-content/uploads/motor-300x230.png);
