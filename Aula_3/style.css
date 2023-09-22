@@ -54,7 +54,7 @@ header {
 }
 #section-banner {
   height: 60vh;
-  background-color: #f78ca2;
+
   color: #3d0c11;
   padding-top: 8%;
   text-align: center;
@@ -71,10 +71,7 @@ header {
   padding: 10px 15px 10px 15px;
   box-shadow: 15px 15px #3d0c11;
 }
-::selection {
-  color: #3d0c11;
-  background: #f9dec9;
-}
+
 #section-cards {
   width: 100%;
   height: 60vh;
@@ -96,12 +93,40 @@ header {
   padding: 10px;
   text-align: justify;
   height: 30%;
+  font-size: 1rem;
 }
 
+#secao3 {
+  width: 100%;
+  height: 60vh;
+  background-color: #f78ca2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#text-secao3 {
+  font-size: medium;
+  height: 80%;
+  width: 25%;
+  text-align: justify;
+  background-color: #d80032;
+  border-radius: 10px;
+  color: #f9dec9;
+  box-shadow: 15px 15px #3d0c11;
+  padding: 10px;
+}
+
+#img-secao3 {
+  background-image: url(https://nivelandoaengenharia.com.br/wp-content/uploads/motor-300x230.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 80%;
+}
 footer {
   background-color: #3d0c11;
   height: 20vh;
-  margin-top: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
