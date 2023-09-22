@@ -5,9 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Aula 4</title>
+    <title>Formulário</title>
   </head>
   <body>
-    <h1>sexo 2</h1>
+    <h1>Cadastro de Usuário</h1>
+
+    <form action="receberDados.c" method="post">
+      Nome:
+      <input type="text" name="nome" id="nome" /> <br />
+      Email:
+      <input type="email" name="email" id="email" /> <br />
+      Data:
+      <input type="date" name="data" id="data" /> <br />
+      Sexo: <br />
+      Masculino:
+      <input type="radio" name="sexo" id="sexo" />
+      Feminino:
+      <input type="radio" name="sexo" id="sexo" /> <br />
+      Disciplinas: <br />
+      APE:
+      <input type="checkbox" name="APE" id="" /> <br />
+      Sistemas Operacionais:
+      <input type="checkbox" name="APE" id="" /> <br />
+
+      Estado:
+      <select name="estado" id="">
+        <option value="DF">DF</option>
+        <option value="SP">SP</option>
+        <option value="RJ">RJ</option>
+      </select>
+      <br />
+      Observaçoes: <br />
+      <textarea name="obs" id="" cols="30" rows="10"></textarea>
+      <input type="submit" value="Enviar" />
+    </form>
   </body>
 </html>
