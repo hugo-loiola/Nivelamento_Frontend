@@ -1,10 +1,16 @@
 * {
   margin: 0;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: Velocidade;
   src: url(fonts/Montserrat-VariableFont_wght.ttf);
 }
+
 body {
   font-family: Velocidade;
   background-color: #f9dec9;
@@ -31,6 +37,7 @@ header {
   align-items: center;
   border-radius: 10px;
 }
+
 #header-nav-ul {
   display: flex;
 }
@@ -46,12 +53,14 @@ header {
   text-decoration: none;
   color: #3d0c11;
 }
+
 #header-nav-a:hover {
   background-color: #3d0c11;
   color: #f78ca2;
   padding: 5px;
   border-radius: 10px;
 }
+
 #section-banner {
   height: 60vh;
 
@@ -62,6 +71,7 @@ header {
   justify-content: center;
   align-items: center;
 }
+
 #section-banner-card {
   border-radius: 10px;
   background-color: #d80032;
@@ -116,6 +126,7 @@ header {
   box-shadow: 15px 15px #3d0c11;
   padding: 10px;
 }
+
 hr {
   border: 1px solid #f9dec9;
   margin-right: 10px;
@@ -130,6 +141,7 @@ hr {
   width: 40%;
   height: 80%;
 }
+
 footer {
   background-color: #3d0c11;
   height: 20vh;
@@ -149,6 +161,7 @@ footer {
   color: #d80032;
   text-decoration: none;
 }
+
 #footer-card-a:hover {
   background-color: #3d0c11;
   color: #f78ca2;
