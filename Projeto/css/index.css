@@ -1,0 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+#section-banner-card {
+  border-radius: 10px;
+  background-color: #d80032;
+  text-align: justify;
+  color: #f9dec9;
+  margin: 20px;
+  padding: 10px 15px 10px 15px;
+  box-shadow: 15px 15px #3d0c11;
+}
