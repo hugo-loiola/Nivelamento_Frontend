@@ -2,37 +2,25 @@ html {
   scroll-behavior: smooth;
 }
 
-#section-banner-card {
-  border-radius: 10px;
-  background-color: #d80032;
-  text-align: justify;
-  color: #f9dec9;
-  margin: 20px;
-  padding: 10px 15px 10px 15px;
-  box-shadow: 15px 15px #3d0c11;
-}
-
 footer {
   background-color: #3d0c11;
   color: #f9dec9;
 }
-#card-carro {
-  border-radius: 10px;
-  background-color: #f9dec9;
-  color: #3d0c11;
-  box-shadow: 15px 15px #d80032;
+p,
+h2,
+h5,
+img,
+hr,
+video {
+  animation: fadeIn 5s;
 }
-#section2 {
-  background-color: #f78ca2;
-}
-
-#section3 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-#hr {
-  border: 1px solid;
+@keyframes fadeIn {
+  20% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 #link {
   text-decoration: none;
