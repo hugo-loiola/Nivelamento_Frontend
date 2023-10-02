@@ -22,8 +22,19 @@ footer {
   color: #3d0c11;
   box-shadow: 15px 15px #d80032;
 }
-#section2 {
-  background-color: #f78ca2;
+p,
+h2,
+h5,
+img {
+  animation: fadeIn 5s;
+}
+@keyframes fadeIn {
+  20% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 #section3 {
@@ -31,9 +42,7 @@ footer {
   justify-content: space-around;
   align-items: center;
 }
-#hr {
-  border: 1px solid;
-}
+
 #link {
   text-decoration: none;
   color: #d80032;
