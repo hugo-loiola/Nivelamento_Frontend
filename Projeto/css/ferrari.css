@@ -1,7 +1,10 @@
 html {
   scroll-behavior: smooth;
 }
-
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
 footer {
   background-color: #3d0c11;
   color: #f9dec9;
